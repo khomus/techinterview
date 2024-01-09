@@ -1,0 +1,22 @@
+{
+  "name": "tech-interviews",
+  "version": "1.0.0",
+  "description": "tech interviews QAA test folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/khomus.git"
+  },
+  "keywords": [
+    "QA"
+  ],
+  "author": "Bekar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/github.com/khomus/issues"
+  },
+  "homepage": "https://github.com/github.com/khomus#readme"
+}
