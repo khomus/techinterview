@@ -1,12 +1,14 @@
 //import {} from ""
+import "cypress-real-events/support";
 
 describe("Tech Interview", () => {
     
   it("Test 1", () =>{
      
-      cy.visit('http://news.zerkalo.io/economics/58207.html')  
+      cy.visit('https://www.cypress.io')  
       cy.log('---Starting searching for Search field')
-      cy.get("search_from_str").should('be.visible');
+      cy.get('#dropdownCompany').should('be.visible')
+      cy.get('#dropdownCompany').realHover('mouse')
       
   })
 })
