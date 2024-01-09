@@ -4,7 +4,8 @@ describe("Tech Interview", () => {
     
   it("Test 1", () =>{
      
-      cy.visit('www.zerkalo.io')  
+      cy.visit('https://news.zerkalo.io/economics/58207.html')  
+      cy.log('---Starting searching for Search field')
       cy.get("search_from_str").should('be.visible');
       
   })
