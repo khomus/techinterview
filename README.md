@@ -1,2 +1,0 @@
-# techinterview
-Tech Interviews
