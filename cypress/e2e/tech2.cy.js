@@ -12,7 +12,7 @@ describe("Tech Interview", () => {
       cy.pause(2000)
       cy.get('#pass').type('elftellerivtorniki')
       cy.pause(2000)
-      cy.get('[id^=u_0_5_]').click()
+      cy.get('[id^=u_0_5_]').click({ force: true })
       cy.pause()
 
       cy.visit('http://www.facebook.com/groups/itkrakowiwroclawporusski')
