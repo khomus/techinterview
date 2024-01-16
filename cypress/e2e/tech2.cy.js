@@ -13,7 +13,7 @@ describe("Tech Interview", () => {
       cy.get('#fsc-origin-search-1').type("j").type({downArrow}).type({Enter})
       cy.get('#fsc-destination-search-0').type("h").type({downArrow}).type({Enter})
       cy.get('#fsc-destination-search-1').type("i").type({downArrow}).type({Enter})
-      cy.get('*[class^="DateInput_DateInput--text"}').click().get('*[class^="BpkSelect_bpk-select"}').click().type({downArrow}).type({downArrow}).type({Enter})
+      //cy.get('*[class^="DateInput_DateInput--text"}').click().get('*[class^="BpkSelect_bpk-select"}').click().type({downArrow}).type({downArrow}).type({Enter})
 
       //cy.log('---Starting searching for Search field')
       //cy.get('#dropdownCompany').should('be.visible')
