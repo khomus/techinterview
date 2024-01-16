@@ -15,7 +15,15 @@ describe("Tech Interview", () => {
       cy.get('[id^=u_0_5_]').click({ force: true })
       cy.pause()
 
-      cy.visit('http://www.facebook.com/groups/itkrakowiwroclawporusski')
+      cy.visit('http://www.facebook.com/groups/itkrakowiwroclawporusski') 
+      cy.get('[id^=u_0_j_]').click({ force: true })
+      cy.pause(2000)
+      cy.get('#email').type('elftelleri@yahoo.com')
+      cy.pause(2000)
+      cy.get('#pass').type('elftellerivtorniki')
+      cy.pause(2000)
+      cy.get('[id^=u_0_5_]').click({ force: true })
+      cy.pause()
 
 
       //cy.get('#destinationInput-input').click().get('.BpkButton_bpk-button__MDk1Y BpkButton_bpk-button--link__NGVhY FilterButton_button__Mzc2N').click()
